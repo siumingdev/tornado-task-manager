@@ -80,10 +80,8 @@ I have chosen MySQL as the backed database.
 1. Choose the conda env with `task_man` dev installed in `Settings/Project/Project Interpreter
 1. Environment variables required to run the app: `MYSQL_HOST`, `MYSQL_USER` and `MYSQL_PASSWORD` (default values: `localhost:3306`, `root`, `root`)
     1. Click `Edit Configuration` in the upper right.  
-    ![pycharm_edit_config](docs/images/pycharm_edit_config.png)
     1. Choose `src/main.py` in `Script path`.
     1. Setup the environment variables.  
-    ![pycharm_env_var](docs/images/pycharm_env_var.png)
 1. Run `src/main.py` with the configuration you have just created to start the app.
 
 ## Deployment Setup (brief)
